@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS burgers_db;
+CREATE DATABASE burgers_db;
+USE burgers_db;
+CREATE TABLE eats (
+    id  INT NOT NULL AUTO_INCREMENT,
+    bName VARCHAR(50) NOT NULL,
+    eaten BOOLEAN NOT NULL,
+    PRIMARY KEY (id)
+);
